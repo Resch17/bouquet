@@ -7,6 +7,6 @@ export const FlowerList = () => {
   getFlowers().then(() => {
     const flowers = useFlowers();
 
-    contentTarget.innerHTML = flowers.map((flower) => Flower(flower)).join('');
+    // contentTarget.innerHTML = flowers.map((flower) => Flower(flower)).join('');
   });
 };

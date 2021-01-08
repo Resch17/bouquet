@@ -1,0 +1,91 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "commonName": "Tulip",
+      "color": "Yellow"
+    },
+    {
+      "id": 2,
+      "commonName": "Tiger Lily",
+      "color": "Orange"
+    },
+    {
+      "id": 3,
+      "commonName": "Zinnia",
+      "color": "Red"
+    },
+    {
+      "id": 4,
+      "commonName": "Daffodil",
+      "color": "Yellow"
+    },
+    {
+      "id": 5,
+      "commonName": "Peony",
+      "color": "Pink"
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "name": "Frisch Greenhouses",
+      "city": "Antigo",
+      "state": "WI",
+      "address": "106 7th Ave",
+      "distributorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Bev's Floral",
+      "city": "Stevens Point",
+      "state": "WI",
+      "address": "492 Division St",
+      "distributorId": 1
+    },
+    {
+      "id": 3,
+      "name": "The White Orchid",
+      "city": "Nashville",
+      "state": "TN",
+      "address": "998 Davidson Dr",
+      "distributorId": 2
+    },
+    {
+      "id": 4,
+      "name": "Geny's Flowers",
+      "city": "Nashville",
+      "state": "TN",
+      "address": "4407 Charlotte Ave",
+      "distributorId": 2
+    },
+    {
+      "id": 5,
+      "name": "Garden Grove Gardens",
+      "city": "Garden Grove",
+      "state": "CA",
+      "address": "3545 SW 34th St",
+      "distributorId": 3
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "name": "National Floral",
+      "city": "Poughkeepsie",
+      "state": "NY"
+    },
+    {
+      "id": 2,
+      "name": "Southeastern Beautification",
+      "city": "Atlanta",
+      "state": "GA"
+    },
+    {
+      "id": 3,
+      "name": "Western Flowers",
+      "city": "Denver",
+      "state": "CO"
+    }
+  ]
+}

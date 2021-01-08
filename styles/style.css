@@ -1,3 +1,7 @@
 .container {
   display: flex;
 }
+
+.retailer {
+  border-bottom: 2px solid black;
+}

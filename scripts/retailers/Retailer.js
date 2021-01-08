@@ -47,11 +47,11 @@ export const Retailer = (retailer) => {
   return `
   <div class="retailer">
     <h2>${retailer.name}</h2>
-    <p>${retailer.address} ${retailer.city}, ${retailer.state}</p>
+    <p>${retailer.address}, ${retailer.city}, ${retailer.state}</p>
     <h3><u>Distributor</u></h3>
     <p><b>${distributor.name}</b> - ${distributor.city}, ${distributor.state}</p>
     <section class="retailer__nurseries">
-    <h3>Flowers from these nurseries:</h3>
+    <h3>Supplied by these nurseries:</h3>
     <ul>${nurseriesHtml}</ul>
     </section>
     <section class="retailer__flowers">

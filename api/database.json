@@ -87,5 +87,111 @@
       "city": "Denver",
       "state": "CO"
     }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Nature's Bounty Nursery"
+    },
+    {
+      "id": 2,
+      "name": "We Grow Flowers, Duh."
+    },
+    {
+      "id": 3,
+      "name": "Chopin's Gardens"
+    },
+    {
+      "id": 4,
+      "name": "Savage Garden"
+    },
+    {
+      "id": 5,
+      "name": "Barbara's Garden of Eden"
+    }
+  ],
+  "flowerNurseries": [
+    {
+      "id": 1,
+      "flowerId": 1,
+      "nurseryId": 1
+    },
+    {
+      "id": 2,
+      "flowerId": 3,
+      "nurseryId": 1
+    },
+    {
+      "id": 3,
+      "flowerId": 2,
+      "nurseryId": 2
+    },
+    {
+      "id": 4,
+      "flowerId": 4,
+      "nurseryId": 2
+    },
+    {
+      "id": 5,
+      "flowerId": 5,
+      "nurseryId": 3
+    },
+    {
+      "id": 6,
+      "flowerId": 3,
+      "nurseryId": 3
+    },
+    {
+      "id": 7,
+      "flowerId": 5,
+      "nurseryId": 4
+    },
+    {
+      "id": 8,
+      "flowerId": 2,
+      "nurseryId": 4
+    },
+    {
+      "id": 9,
+      "flowerId": 3,
+      "nurseryId": 5
+    },
+    {
+      "id": 10,
+      "flowerId": 4,
+      "nurseryId": 5
+    }
+  ],
+  "distributorNurseries": [
+    {
+      "id": 1,
+      "distributorId": 1,
+      "nurseryId": 1
+    },
+    {
+      "id": 2,
+      "distributorId": 1,
+      "nurseryId": 4
+    },
+    {
+      "id": 3,
+      "distributorId": 2,
+      "nurseryId": 2
+    },
+    {
+      "id": 4,
+      "distributorId": 3,
+      "nurseryId": 4
+    },
+    {
+      "id": 5,
+      "distributorId": 3,
+      "nurseryId": 2
+    },
+    {
+      "id": 6,
+      "distributorId": 2,
+      "nurseryId": 5
+    }
   ]
 }
